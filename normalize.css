@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 100%;
+	height: 80px;
+	color: black;
+	background-color: #06C9C3;
+	font-family: 'Rubik Iso', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	font-family: 'Rubik Iso', cursive;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #FF893B;
+	font-size: 25px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid grey;
+}
+
+nav ul li a:hover{
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid grey;
+}
+
+button{
+	border: none;
+	background: #9C0216;
+	padding: 12px 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+button:hover{
+	cursor: pointer;
+	color: #61010D;
+}
+
+.mainContainer{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	padding-left: 20px;
+	background-size: cover;
+	background-position: center;
+	background-image: url("https://th.bing.com/th/id/OIP.8v9pC-UuSUunlhZPWKy99AHaE9?pid=ImgDet&w=474&h=317&rs=1");
+}
+
+.main1Col{
+	flex-basis: 50%;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding-right: 40px;
+	color: black;
+	text-align: justify;
+}
+
+span{
+	font-weight: bold;
+	font-size: 40px;
+	color: #EC0909;
+}
+
+h3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #EC0909;
+}
+
+.photo1{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	padding-bottom: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://s.inyourpocket.com/gallery/warsaw/2021/07/plac-zawkowy-warsaw.jpg");
+}
+
+.photo2{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://th.bing.com/th/id/OIP.-SfdUdhzKpZ0mXi9GNP1mgHaE7?pid=ImgDet&rs=1");
+}
+
+.photo3{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://warsawtour.pl/wp-content/uploads/2018/08/%C5%81azienki-Kr%C3%B3lewskie-Pa%C5%82ac-na-Wyspie_fot.-m.st_.-Warszawa.jpg");
+}
+
+.photo4{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 65px;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://th.bing.com/th/id/R.a54f7a4d92a3739132634244082ffa4d?rik=MyyLkekVQHMjqg&riu=http%3a%2f%2fdworek.warka.pl%2fwp-content%2fuploads%2f2013%2f03%2fxWAW06-na-www2-600x400.jpg.pagespeed.ic.pU96TZKjc5.jpg&ehk=SoPmTiE1LSk4hqq3TyO6cD7tEiHHKRyPaAuJVucK0UA%3d&risl=&pid=ImgRaw&r=0");
+}
