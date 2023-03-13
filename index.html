@@ -1,52 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>MyFirstPage</title>
-	
-    <link rel="stylesheet" href="normalize.css">
-	<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet" type="text/css" >
-	
-	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
-	
-  </head>
-  <body>
-	<div class="logo">
-		<p>Warszawa - najciekawsze miejsca</p>
-	</div>
-	<div class="container">
-		<nav>
-			<h2>Menu</h2>
-			<ul>
-			  <li><a href="#">Historia Warszawy</a></li>
-			  <li><a href="#">Mapa Warszawy</a></li>
-			  <li><a href="#">O twórcy strony</a></li>
-			</ul>
-			<button type="button">Subskrybuj</button>
-		</nav>
-		<div class="mainContainer">
-			<div class="main1Col">
-				<p><span>Warszawa, miasto stołeczne Warszawa</span><br/>- stolica Polski i województwa mazowieckiego, położone w centralnej jego części, na Nizinie Mazowieckiej, na Mazowszu. Warszawa jest największym miastem w Polsce pod względem liczby ludności i powierzchni. Żyje w niej ok 1.86 mln ludzi (3602 os./km2). Powierzchnia naszej stolicy wynosi 517,2 km2. Od 2002 jest gminą miejską mającą status miasta na prawach powiatu. W jej skład wchodzi 18 jednostek pomocniczych – dzielnic m.st. Warszawy. W tle mamy Pałac Kultury I Nauki, a obok mamy jeszcze wybrane cztery pozycje.</p>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Warszawa</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<p>Warszawa - najciekawsze miejsca</p>
 			</div>
-			<div class="main1Col">
-			<!-- zdjęcia są ustawione jako tła poszczególnych kafelków;
-			są w załączonym pliku CSS-->
-				<div class="photo1">
-					<h3>Plac Zamkowy</h3>
+			<nav class="navbar">
+				<a class="menu" href="#"><img class="herbWarszawy" src="https://th.bing.com/th/id/R.02914927b810950329222a9e768e88dd?rik=tFlajd0W0zHB4g&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2fb%2fb5%2fPOL_Warszawa_COA.svg%2f100px-POL_Warszawa_COA.svg.png&ehk=j2rzUYM7k1yxFXog5e1LmOAPMGHMAEWaSOgGq0yG3pc%3d&risl=&pid=ImgRaw&r=0"></a>
+				<ul>
+					<li><a href="#">Historia Warszawy</a></li>
+					<li><a href="#">Mapa Warszawy</a></li>
+					<li><a href="#">O twórcy strony</a></li>
+				</ul>
+				<button class="btn-sub" href="#">Subskrybuj</button>
+			</nav>
+		</header>
+		
+		<section class="pkin">
+			<div class="row deskr">
+				<div class="col">
+					<h1>Warszawa</h1>
+					<p>stolica Polski i województwa mazowieckiego, położone w centralnej jego części, na Nizinie Mazowieckiej, na Mazowszu. 
+						Warszawa jest największym miastem w Polsce pod względem liczby ludności i powierzchni. Żyje w niej ok 1.86 mln ludzi (3602 os./km2). 
+						Powierzchnia naszej stolicy wynosi 517,2 km2. Od 2002 jest gminą miejską mającą status miasta na prawach powiatu. 
+						W jej skład wchodzi 18 jednostek pomocniczych – dzielnic m.st. Warszawy. 
+					</p>
 				</div>
-				<div class="photo2">
-					<h3>Syrenka warszawska na Powiślu</h3>
-				</div>
-				<div class="photo3">
-					<h3>Łazienki Królewskie</h3>
-				</div>
-				<div class="photo4">
-					<h3>Pałac w Wilanowie</h3>
-				</div>
+				<div class="col">
+					<div class="row">
+						<div class="col">
+							<img src="https://s.inyourpocket.com/gallery/warsaw/2021/07/plac-zawkowy-warsaw.jpg" alt="" >
+							<figcaption> Plac Zamkowy </figcaption>
+						</div>
+						<div class="col">
+							<img src="https://th.bing.com/th/id/OIP.-SfdUdhzKpZ0mXi9GNP1mgHaE7?pid=ImgDet&rs=1" alt="" >
+							<figcaption> Syrenka warszawska na Powiślu </figcaption>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<img src="https://warsawtour.pl/wp-content/uploads/2018/08/%C5%81azienki-Kr%C3%B3lewskie-Pa%C5%82ac-na-Wyspie_fot.-m.st_.-Warszawa.jpg" alt="" >
+							<figcaption> Łazienki Królewskie </figcaption>
+						</div>
+						<div class="col">
+							<img style = "height: 266.4px;"src="https://www.wilanow-palac.pl/image.php/24931/palac_w_wilanowie_fot_w_holnicki.jpg" alt="zły link" >
+							<figcaption> Pałac w Wilanowie </figcaption>
+						</div>
+					</div>
+				</div>			
 			</div>
-		</div>
-	</div>
-  </body>
+		</section>
+	</body>
 </html>
