@@ -1,24 +1,15 @@
 * {
     margin: 0;
-
 }
 
 body {
     background-size: cover;
 	background-position: center;
-	background-image: url("https://th.bing.com/th/id/OIP.8v9pC-UuSUunlhZPWKy99AHaE9?pid=ImgDet&w=474&h=317&rs=1");
 }
-.pkin {
+
+.main {
     padding: 50px;
-}
-
-
-.row {
-    display: flex;
-}
-
-col {
-    align-self: auto;
+	background-color: #06C9C3;
 }
 
 img {
@@ -60,8 +51,6 @@ figcaption {
 } 
 
 .logo {
-    padding: 40px 0 40px 0;
-	color: black;
 	background-color: #06C9C3;
 	font-family: 'Rubik Iso', cursive;
 	font-size: 50px;
@@ -70,8 +59,6 @@ figcaption {
 
 
 .menu {
-    float: left;
-    margin: 20px;
     text-decoration: none;
     font-family: 'Rubik Iso', cursive;
 }
@@ -91,33 +78,7 @@ button:hover{
 	color: #61010D;
 }
 
-.navbar {
-    background-color: #FF893B;
-    height: 50px;
-    width: 100%;
-    text-align:center;
-    padding-bottom: 15px;
-	font-family: 'Rubik Iso', cursive;
-}
-
-.navbar ul {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display:inline-block;
-    vertical-align:top;
-}
-  
-.navbar li {
-    list-style-type: none;
-    padding: 0px;
-    height: 24px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: inline;
-}
-  
-.navbar li a {
+.nav-link a {
     color: black;
     font-size: 16px;
     text-decoration: none;
@@ -125,7 +86,7 @@ button:hover{
     padding: 5px 20px;
 }
 
-.navbar li a:hover {
+.nav-link a:hover {
     color: grey;
     font-size: 16px;
     text-decoration: none;

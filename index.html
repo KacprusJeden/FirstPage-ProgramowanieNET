@@ -7,34 +7,51 @@
 		<title>Kacper Prusiński - Warszawa</title>
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet" type="text/css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
-			<div class="logo">
+			<div class="logo container-fluid py-3">
 				<p>Warszawa - najciekawsze miejsca</p>
 			</div>
-			<nav class="navbar">
-				<a class="menu" href="#"><img class="herbWarszawy" src="https://th.bing.com/th/id/R.02914927b810950329222a9e768e88dd?rik=tFlajd0W0zHB4g&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2fb%2fb5%2fPOL_Warszawa_COA.svg%2f100px-POL_Warszawa_COA.svg.png&ehk=j2rzUYM7k1yxFXog5e1LmOAPMGHMAEWaSOgGq0yG3pc%3d&risl=&pid=ImgRaw&r=0"></a>
-				<ul>
-					<li><a href="#">Historia Warszawy</a></li>
-					<li><a href="#">Mapa Warszawy</a></li>
-					<li><a href="#">O twórcy strony</a></li>
-				</ul>
-				<button class="btn-sub" href="#">Subskrybuj</button>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+			  <div class="container-fluid">
+				<a class="navbar-brand" href="#"><img class="herbWarszawy" src="https://th.bing.com/th/id/R.02914927b810950329222a9e768e88dd?rik=tFlajd0W0zHB4g&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2fb%2fb5%2fPOL_Warszawa_COA.svg%2f100px-POL_Warszawa_COA.svg.png&ehk=j2rzUYM7k1yxFXog5e1LmOAPMGHMAEWaSOgGq0yG3pc%3d&risl=&pid=ImgRaw&r=0"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="#ogolne_info">Ogólne informacje</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#zdjecia">Zdjęcia</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#historia">Historia Warszawy</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#mapa">Mapa Warszawy</a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
 			</nav>
 		</header>
 		
-		<section class="pkin">
+		<section class="main">
 			<div class="row deskr">
-				<div class="col">
-					<h1>Warszawa</h1>
+				<div class="col-lg-6 content">
+					<h1 id="ogolne_info">Warszawa - ogólne informacje</h1>
 					<p>stolica Polski i województwa mazowieckiego, położone w centralnej jego części, na Nizinie Mazowieckiej, na Mazowszu. 
 						Warszawa jest największym miastem w Polsce pod względem liczby ludności i powierzchni. Żyje w niej ok 1.86 mln ludzi (3602 os./km2). 
 						Powierzchnia naszej stolicy wynosi 517,2 km2. Od 2002 jest gminą miejską mającą status miasta na prawach powiatu. 
 						W jej skład wchodzi 18 jednostek pomocniczych – dzielnic m.st. Warszawy. 
 					</p>
 				</div>
-				<div class="col">
+				<div class="col-lg-6 content">
+					<h1 id="zdjecia">Zdjęcia</h1>
 					<div class="row">
 						<div class="col">
 							<img src="https://s.inyourpocket.com/gallery/warsaw/2021/07/plac-zawkowy-warsaw.jpg" alt="" >
@@ -57,6 +74,42 @@
 					</div>
 				</div>			
 			</div>
+			<div class="row deskr">
+				<div class="col-lg-5 content">
+					<h1 id="historia">Historia Warszawy</h1>
+					<p>Warszawa to stolica Polski i jedno z największych miast kraju. Miasto ma długą i bogatą historię, sięgającą aż do XIII wieku. W 1413 roku Warszawa otrzymała prawa miejskie, co pozwoliło na rozwój i rozbudowę miasta.
+
+					W XVI wieku Warszawa stała się stolicą Polski i siedzibą królów. W tym czasie miasto rozwijało się szybko, a liczba ludności wzrastała. W XVII wieku Warszawa przeszła wiele przemian, w tym m.in. wojny ze Szwedami, Rosjanami i Siedmiogrodem.
+
+					W XVIII wieku Warszawa stała się centrum życia kulturalnego, intelektualnego i politycznego Polski. W 1791 roku w Warszawie uchwalono Konstytucję 3 Maja, jedną z pierwszych w Europie. W 1795 roku Polska została podzielona między Rosję, Prusy i Austrię, a Warszawa stała się stolicą Księstwa Warszawskiego.
+
+					W XIX wieku Warszawa rozwijała się jako ważny ośrodek przemysłowy i handlowy. W 1830 roku wybuchło powstanie listopadowe, które zostało stłumione przez Rosjan. W 1863 roku wybuchło kolejne powstanie, które również zakończyło się klęską.
+
+					Podczas I wojny światowej Warszawa była okupowana przez Niemcy. W 1918 roku Polska odzyskała niepodległość, a Warszawa stała się ponownie stolicą kraju. W okresie międzywojennym miasto rozwijało się szybko, a liczba ludności wzrosła dwukrotnie.
+
+					Podczas II wojny światowej Warszawa była okupowana przez Niemcy. W 1944 roku wybuchło Powstanie Warszawskie, podczas którego mieszkańcy stolicy, w większości członkowie Armii Krajowej, walczyli z niemieckimi okupantami. Po 63 dniach walk powstanie zostało stłumione, a Warszawa została zrównana z ziemią przez Niemców w ramach represji. Po wojnie trwała odbudowa miasta, która przyniosła wiele nowych budynków, w tym Pałac Kultury i Nauki, symbol związany z sowiecką dominacją. W latach 70. i 80. Warszawa była ośrodkiem opozycji antykomunistycznej, a w 1989 roku w stolicy odbyły się rozmowy Okrągłego Stołu, które doprowadziły do transformacji ustrojowej kraju.
+
+					W 21. wieku Warszawa jest nowoczesnym i dynamicznym miastem, będącym centrum polskiej polityki, gospodarki, kultury i nauki. Stolica jest siedzibą wielu instytucji i organizacji, w tym siedzibą Sejmu i Senatu RP, Rządu RP, Banku Narodowego Polskiego, a także różnych organizacji międzynarodowych. W mieście odbywają się również liczne wydarzenia kulturalne i sportowe, takie jak Międzynarodowy Festiwal Filmowy w Warszawie, Warszawski Festiwal Kultury Żydowskiej, Warszawska Jesień, Warszawski Maraton, a także mecze piłki nożnej, w tym mecze reprezentacji Polski.
+
+					Warszawa to także miasto turystyczne, przyciągające turystów z całego świata swoimi zabytkami i atrakcjami turystycznymi, takimi jak Stare Miasto z zespołem pałacowo-ogrodowym na Łazienkach Królewskich, Muzeum Fryderyka Chopina, Muzeum Narodowe, Muzeum Wojska Polskiego, Muzeum Żydowskiego Instytutu Historycznego czy Muzeum Fryderyka Chopina. Miasto ma wiele parków i zieleni, w tym Park Świętokrzyski, Park Skaryszewski i Pole Mokotowskie, gdzie mieszkańcy mogą odpocząć i korzystać z różnych form rekreacji.
+
+					W ciągu wieków Warszawa przeszła wiele zmian i przeobrażeń, ale zawsze pozostawała dumnym symbolem polskiej tożsamości i wolności.
+					</p>
+				</div>
+				<div class="col-lg-1 content">
+					<!-- space col-lg-1 -->
+				</div>
+				<div class="col-lg-6 content">
+					<h1 id="mapa">Mapa Warszawy</h1>
+					<iframe
+					  width="500"
+					  height="500"
+					  frameborder="0" style="border:0"
+					  src="https://www.mapa-satelitarna.pl/Warszawa#">
+					</iframe>
+				</div>			
+			</div>
 		</section>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	</body>
 </html>
